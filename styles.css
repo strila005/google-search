@@ -1,0 +1,252 @@
+.img_textarea, .ord_textarea {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid lightgrey;
+  border-radius: 25px;
+  max-width: 570px;
+}
+.img_textarea input, .ord_textarea input {
+  max-width: 550px;
+  width: 550px;
+  height: 43px;
+  outline: none;
+  border: 0px;
+  background-color: white;
+  border-radius: 25px;
+}
+.img_textarea:hover, .ord_textarea:hover {
+  box-shadow: 0px 0px 3px rgba(80, 80, 80, 0.5);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.no_content {
+  flex: 1;
+}
+
+header {
+  display: flex;
+  height: 80px;
+}
+header nav {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-left: auto;
+}
+header nav a {
+  padding-right: 30px;
+  color: #777;
+  font-size: 14px;
+}
+header nav a:hover {
+  color: black;
+}
+
+#logo_adv {
+  background-image: url("./images/google.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 74px;
+  margin: 15px 17px 17px 12px;
+}
+
+.big_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+}
+.big_logo .google_logo {
+  height: 15vh;
+  padding-bottom: 10px;
+}
+
+#adv_label {
+  color: #d93025;
+  font-size: 20px;
+  padding: 0px 0px 20px 40px;
+  height: 30px;
+}
+
+#captions {
+  height: 80px;
+  display: flex;
+}
+#captions label {
+  display: flex;
+  margin-top: 40px;
+  width: 185px;
+}
+#captions #label_1 {
+  float: left;
+  white-space: nowrap;
+  padding-left: 40px;
+  font-size: 16px;
+}
+#captions #label_2 {
+  display: flex;
+  margin-right: auto;
+  white-space: nowrap;
+  font-size: 13px;
+  color: #777;
+  font-weight: bold;
+}
+
+.space {
+  width: 580px;
+  height: 20px;
+}
+
+#adv_form {
+  width: 100%;
+  padding-top: 10px;
+}
+#adv_form label {
+  margin-bottom: 13px;
+}
+#adv_form div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+#adv_form .adv_input {
+  display: flex;
+  width: 570px;
+  height: 25px;
+  border: 1px solid rgb(190, 190, 190);
+}
+#adv_form .first_l {
+  display: flex;
+  float: left;
+  width: 180px;
+  height: 25px;
+  font-size: 13px;
+  padding-top: 5px;
+  padding-left: 40px;
+}
+#adv_form .second_l {
+  width: 345px;
+  font-size: 11px;
+  color: #777;
+  padding-top: 5px;
+  padding-left: 13px;
+}
+#adv_form .div_button {
+  display: flex;
+  margin-left: auto;
+  height: 60px;
+  width: 760px;
+}
+#adv_form .div_button button {
+  height: 30px;
+  width: 130px;
+  background-color: #4d90fe;
+  color: white;
+  font: bold 11px arial;
+  border: 0.5px solid #3079ed;
+  border-radius: 2px;
+}
+#adv_form .div_button button:hover {
+  background-color: rgb(60, 125, 240);
+}
+
+.ord_form {
+  display: flex;
+  flex-direction: column;
+}
+.ord_form div .symbol {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.search_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding: 30px;
+}
+.search_buttons .space {
+  width: 20px;
+}
+.search_buttons input {
+  height: 35px;
+  width: 140px;
+  backgrouund-color: #f8f9fa;
+  border: 0px;
+  opacity: 50%;
+  font-size: 14px;
+}
+.search_buttons input:hover {
+  box-shadow: 0px 0px 3px rgba(80, 80, 80, 0.5);
+  cursor: pointer;
+}
+
+.img_textarea #search_button {
+  width: 30px;
+  background-image: url(./images/search2.png);
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  margin-top: 7px;
+  margin-right: 8px;
+}
+.img_textarea #search_button:hover {
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 30px 40px;
+}
+.links span {
+  font-size: 16px;
+  padding: 20px 0px 20px 0px;
+}
+.links a {
+  font-size: 13px;
+  padding: 2px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  color: #777;
+}
+footer span {
+  font-size: 15px;
+}
+footer .footer_div {
+  padding: 10px 0px 10px 40px;
+  height: 20px;
+}
+footer .footer_div div a {
+  color: inherit;
+  font-size: 14px;
+  text-decoration: none;
+  padding-right: 25px;
+}
+footer .footer_div div a:hover {
+  color: black;
+}
+
+.line {
+  border-bottom: 1px solid #e0dfdf;
+}
+
+#div_r {
+  float: right;
+}
+
+#div_l {
+  float: left;
+}/*# sourceMappingURL=styles.css.map */
