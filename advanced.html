@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+    <head>
+        <title>Розширений пошук</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <header>
+            <div id="logo_adv"></div>
+            <nav>
+                <a href="images.html">Пошук зображень</a>
+                <a href="search.html">Пошук</a>
+            </nav>
+        </header>
+        <div id="adv_label"><label>Розширений пошук</label></div>
+        <div class="line"></div>
+        <section>
+            <div id="captions">
+                <label for="form" id="label_1">Знайти сторінки, що <br>містять...</label>
+                <div class="space"></div>
+                <label for="form" id="label_2">Як це зробити в полі пошуку</label>
+            </div>
+            <form action="https://www.google.com/search" id="adv_form" name="form">
+                <div>
+                    <label class="first_l" for="as_q">усі ці слова:</label>
+                    <input class="adv_input" type="text" name="as_q">
+                    <label class="second_l" for="as_q">Введіть важливі слова: триколірний рет-тер’єр</label>
+                </div>
+                <div>    
+                    <label class="first_l" for="as_q">точне слово або фразу:</label>
+			        <input class="adv_input" type="text" name="as_epq">
+                    <label class="second_l" for="as_q">Візьміть точні слова в лапки: "рет-тер’єр"</label>
+                </div>
+                <div>
+                    <label class="first_l" for="as_q">будь-яке з цих слів:</label>
+                    <input class="adv_input" type="text" name="as_oq">
+                    <label class="second_l" for="as_q">Введіть OR між усіма потрібними словами: мініатюрні OR стандартні</label>
+                </div>
+                <div>
+                    <label class="first_l" for="as_q">жодне з цих слів:</label>
+                    <input class="adv_input" type="text" name="as_eq">
+                    <label class="second_l" for="as_q">Поставте знак мінус перед небажаними словами: <br>-гризун, -"Джек Рассел"</label>
+                </div> 
+                <div class="div_button">
+                    <button type="submit" form="adv_form" value="Advanced search">Розширений пошук</button>
+                </div>
+            </form>
+        </section>
+        <div class="line"></div>
+        <div class="links">
+            <span>Також можна...</span>
+            <a href="https://support.google.com/websearch?p=adv_pages_similar&hl=uk">Знайти сторінки, схожі на URL-адресу</a>
+            <a href="https://support.google.com/websearch?p=adv_pages_visited&hl=uk">Шукати на відвіданих сторінках</a>
+            <a href="https://support.google.com/websearch?p=adv_operators&hl=uk">Використовувати оператори у вікні пошуку</a>
+            <a href="https://www.google.com/preferences?hl=uk-SK">Налаштувати параметри пошуку</a>
+        </div>
+        <div class="no_content"></div>
+        <footer class="adv_footer">
+            <div class="line"></div>
+            <div class="footer_div"><span>Словаччина</span></div>
+            <div class="line"></div>
+            <div class="footer_div">
+                <div>
+                    <a href="https://support.google.com/websearch/?p=ws_results_help&hl=uk-SK&fg=1">Довідка</a>
+                    <a href="https://policies.google.com/privacy?hl=uk-SK&fg=1">Конфіденційність</a>
+                    <a href="https://policies.google.com/terms?hl=uk-SK&fg=1">Умови</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
